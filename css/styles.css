@@ -254,8 +254,6 @@ fill: var(--accent-color);
   width: 400px;
   margin-bottom: 12px;
   line-height: 1.7;
-  
-  
 }
 .form__send{
   background-color: var(--accent-color);
@@ -515,28 +513,21 @@ color: var(--primary-white-color);
   margin-bottom: 20px;
 }
 .social-networks--dark{
-  display: flex;
+  margin-left: 0;
   gap: 10px;
 }
-.social-network--dark__gray{
-  width: 44px;
-  height: 44px;
+.social-network__gray{
   border-radius: 25px;
-  border: none;
   background-color: #ffffff1a;;
   padding: 12px;
   cursor: pointer;
   fill: var(--primary-white-color);
 }
-.social-network--dark__gray:hover,
-.social-network--dark__gray:focus{
+.social-network__gray:hover,
+.social-network__gray:focus{
   background-color: var(--accent-color);
   cursor: pointer;
   fill: var(--primary-white-color);
-}
-.social-network-icon__black{
-  height: 20px;
-  width: 20px;
 }
 
 /* Suscripción */
