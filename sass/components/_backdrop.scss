@@ -51,7 +51,6 @@
         fill: $color-accent;
     }
 }
-
 .form {
     padding: 40px;
     position: absolute;
@@ -132,4 +131,4 @@
     &__send:focus {
         background-color: $color-button-hover;
     }
-    }
+}
