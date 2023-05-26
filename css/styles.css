@@ -1,48 +1,8 @@
 
-/* A QUE NOS DEDICAMOS */
-
-.title-h2{
-  color: var(--primary-title-color);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.166;
-  padding: 94px 0 50px;
-  text-align: center;
-}
-.we-do{
-  display: flex;
-  padding-bottom: 94px;
-  justify-content: space-between;
-}
-.we-do__image-1 {
-  background-image:url(../images/image1.jpeg);
-  flex-basis: calc((100% - 90px)/3)
-}
-.we-do__image-2 {
-  background-image: url(../images/image2.jpeg);
-  flex-basis: calc((100% - 90px)/3)
-}
-.we-do__image-3 {
-  background-image: url(../images/image3.jpeg);
-  flex-basis: calc((100% - 90px)/3)
-}
-.we-do__text {
-  display:flex;
-  border: none;
-  height: 70px;
-  font-size: 14px;
-  line-height: 1.142;
-  color: var(--primary-white-color);
-  background: rgba(47, 48, 58, 0.8);
-  margin-top:224px;
-  justify-content: center;
-  align-items: center;
-}
-
 /* NUESTRO EQUIPO */
 
 .our-team{
-  background-color: var(--background-gray);
+  background-color: $color-background-gray;
   padding-bottom: 94px;
   padding-top: 1px;
 }
@@ -52,7 +12,7 @@
   gap: 30px;
 }
 .our-team__members-card{
-  background-color: var(--primary-white-color);
+  background-color: $color-primary-white;
   border-radius: opx opx 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
               0px 1px 1px rgba(0, 0, 0, 0.14), 
@@ -61,7 +21,7 @@
   text-align: center;
 }
 .our-team__name {
-  color: var(--primary-title-color);
+  color: $color-title;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
@@ -70,7 +30,7 @@
   
 }
 .our-team__profession{
-  color: var(--primary-text-color);
+  color: $color-primary-text;
   font-size: 16px;
   line-height: 1.187; 
 }
@@ -80,20 +40,20 @@
   justify-content: space-between;
 }
 .social-network {
-  background-color: var(--primary-white-color);
+  background-color: $color-primary-white;
   width: 44px;
   height: 44px;
   border-radius: 25px;
   border: none;
   cursor: pointer;
-  fill: var(--icon-color);
+  fill: $color-icon;
   padding: 12px;
 }
 .social-network:focus,
 .social-network:hover{
-  background-color: var(--accent-color);
+  background-color: $color-accent;
   cursor: pointer;
-  fill: var(--primary-white-color);
+  fill: $color-primary-white;
 }
 .social-network-icon{
   height: 20px;
@@ -108,7 +68,7 @@
   padding-bottom: 151px;
 }
 .regular-customers__link{
-  background: var(--primary-white-color);
+  background: $color-primary-white;
   border-radius: 4px;
   display: flex;
   width: 170px;
@@ -121,8 +81,8 @@
 }
 .regular-customers__link:hover,
 .regular-customers__link:focus{
-  border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
+  border: 1px solid $color-accent;
+  fill: $color-accent;
 }
 .regular-customers__icon{
   width: 106px;         
@@ -132,7 +92,7 @@
  
 /* Lista de contacto */
 .footer{
-  background-color: var(--background-black);
+  background-color: $color-background-black;
   padding: 60px;
 }
 .footer__container {
@@ -146,18 +106,18 @@
   margin-top: 9px;
 }
 .footer__address-link{
-  color: var(--text-white-opacy);
+  color:$color-text-white-opacy;
   font-style: normal;
   line-height: 1.71;
 }
 .footer__address-link:hover,
 .footer__address-link:focus {
-color: var(--primary-white-color);
+color: $color-primary-white;
 }
 
 /* redes sociales */
 .footer__titles{
-  color: var(--primary-white-color);
+  color: $color-primary-white;
   font-weight: 700;
   line-height: 1.142;
   text-transform: uppercase;
@@ -173,13 +133,13 @@ color: var(--primary-white-color);
   background-color: #ffffff1a;;
   padding: 12px;
   cursor: pointer;
-  fill: var(--primary-white-color);
+  fill: $color-primary-white;
 }
 .social-network__gray:hover,
 .social-network__gray:focus{
-  background-color: var(--accent-color);
+  background-color: $color-accent;
   cursor: pointer;
-  fill: var(--primary-white-color);
+  fill: $color-primary-white;
 }
 
 /* Suscripción */
@@ -205,12 +165,12 @@ color: var(--primary-white-color);
   align-items: center;
   cursor: pointer;
   padding: 16px 28px 15px 39px;
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  background-color: $color-accent;
+  color: $color-primary-white;
   border: none;
 }
 .footer__button:hover{
-  background-color: var(--button-primary-hover);
+  background-color: $color-button-hover;
 }
 .footer__send{
   display: flex;
@@ -241,11 +201,11 @@ color: var(--primary-white-color);
   gap: 8px;
 }
 .portfolio__list {
-  background: var(--background-gray);
+  background: $color-background-gray;
   border-radius: 4px;
   padding: 6px 24px;
   border: none;
-  color: var(--primary-title-color);
+  color: $color-title;
   font-size: 16px;
   line-height: 1.62;
   font-weight: 500;
@@ -253,10 +213,10 @@ color: var(--primary-white-color);
 .portfolio__list:hover,
 .portfolio__list:focus{
   height: 38px;
-  background-color: var(--accent-color);
+  background-color: $color-accent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: var(--primary-white-color);
+  color: $color-primary-white;
   cursor: pointer;
 }
 
@@ -268,7 +228,7 @@ color: var(--primary-white-color);
   gap: 30px;
 }
 .portfolio__card{
-  background: var(--primary-white-color);
+  background: $color-primary-white;
   border: 1px solid #EEEEEE;
   width: 370px;
 }
@@ -289,7 +249,7 @@ color: var(--primary-white-color);
   left: 0;
   
   background-color: rgba(33, 149, 243, 0.9);
-  color: var(--primary-white-color);
+  color: $color-primary-white;
   
   padding: 63px 24px;
   width: 100%;
@@ -309,7 +269,7 @@ color: var(--primary-white-color);
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.06em;
-    color: var(--primary-title-color);
+    color: $color-title;
     margin-left: 24px;
     text-align: left;
     margin-top: 20px;
