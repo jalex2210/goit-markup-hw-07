@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import "node_modules/modern-normalize/modern-normalize.css";
-@import "./components/page-header";
 @import "./utils/variables";
+@import "./components/logo";
+@import "./components/page-header","./components/navbar","./components/backdrop";
+@import "";
 
 
 * {
@@ -14,25 +16,21 @@
     font-weight: 400;
     letter-spacing: 0.03em;
 }
-
-
 body {
-    color: red;
+    color: $color-primary-text;
     background-color: $color-primary-white;
     margin: auto;
-
 }
-
 .container {
     width: 1200px;
     margin: 0 auto;
 }
-
 a {
     text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
-
+header {
+    border-bottom: 1px solid #ECECEC;
+}

@@ -1,44 +1,4 @@
 
-/* contacto del header */
-
-.header__contact{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-}
-.header__link-contact {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  fill: var(--primary-text-color);
-}
-.header__link-contact:focus,
-.header__link-contact:hover{
-  color: var(--accent-color);
-  fill: var(--accent-color);
-}
-.header__icon-folder {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-}
-.header__icon-phone {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-}
-
-/* ---------------------- */
-/* INDEX */
-/* ---------------------- */
-
-
-/*  BACKDROP */
-
 .backdrop{
   display: flex;
   align-items: center;
